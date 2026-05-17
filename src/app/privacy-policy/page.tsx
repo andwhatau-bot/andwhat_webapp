@@ -111,7 +111,7 @@ export default function PrivacyPolicyPage() {
 
               <section>
                 <h2 className="text-lg font-bold text-[#0a1628] mb-3">9. User Rights</h2>
-                <p>You may access, correct, or delete your data. To exercise these rights, contact <a href="mailto:hello@andwhat.au" className="text-[#0048AE] underline">hello@andwhat.au</a>.</p>
+                <p>You may access, correct, or delete your data. To exercise these rights, contact <a href="andwhat.au@gmail.com" className="text-[#0048AE] underline">hello@andwhat.au</a>.</p>
               </section>
 
               <section>
