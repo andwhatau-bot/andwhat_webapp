@@ -2,18 +2,15 @@ import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
 import PilotSignupForm from "@/components/pilot/PilotSignupForm";
 
-const navLinks = [
-  { label: "For Students", href: "/" },
-  { label: "For Schools & RTOs", href: "/schools" },
-  { label: "For Wellbeing & NDIS", href: "/wellbeing" },
-];
+const homeNavLinks = [{ label: "For Students", href: "/" }];
 
 export default function PilotSignupPage() {
   return (
     <>
       <Header
-        navLinks={navLinks}
-        activeHref="/schools"
+        navLinks={homeNavLinks}
+        activeHref="/"
+        variant="student-home"
         registerHref="/pilot/signup"
         registerLabel="Pilot Signup"
       />

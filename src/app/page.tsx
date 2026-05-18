@@ -5,7 +5,6 @@ import ForEducatorsParentsSection from "@/components/home/ForEducatorsParentsSec
 import Header from "@/components/home/Header";
 import HeroSection from "@/components/home/HeroSection";
 import HowItWorksSection from "@/components/home/HowItWorksSection";
-import PowerfulFeaturesSection from "@/components/home/PowerfulFeaturesSection";
 import QuoteSection from "@/components/home/QuoteSection";
 import StudentActionSection from "@/components/home/StudentActionSection";
 
@@ -21,9 +20,8 @@ export default function HomePage() {
         <HeroSection />
         <QuoteSection />
         <HowItWorksSection />
-        <PowerfulFeaturesSection />
-        <DailyVibeCheckSection />
         <ForEducatorsParentsSection />
+        <DailyVibeCheckSection />
         <StudentActionSection />
         <FAQSection variant="home" />
       </main>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { adminLogin } from "@/app/actions/admin-auth";
 import { Button, Form, Input } from "@/components/ui";
+import { CONTACT_EMAIL } from "@/lib/contact";
 
 function WarningIcon() {
   return (
@@ -82,10 +83,10 @@ export default function AdminLoginPage() {
         <p className="absolute top-6 right-6 md:top-8 md:right-8 text-muted text-xs">
           Need help?{" "}
           <a
-            href="mailto:hello@andwhat.app"
+            href={`mailto:${CONTACT_EMAIL}`}
             className="text-ink hover:underline"
           >
-            hello@andwhat.app
+            {CONTACT_EMAIL}
           </a>
         </p>
 

@@ -21,7 +21,7 @@ export default function DailyVibeCheckSection() {
           </p>
         </div>
 
-        <div className="relative mx-auto mt-12 w-full max-w-[260px] sm:mt-14 sm:max-w-[320px] lg:max-w-[360px]">
+        <div className="relative mx-auto mt-12 w-full max-w-[220px] sm:mt-14 sm:max-w-[260px] lg:max-w-[300px]">
           <Image
             src="/images/new/mobileImage.png"
             alt="Daily vibe check wellbeing prompt displayed on a mobile screen"

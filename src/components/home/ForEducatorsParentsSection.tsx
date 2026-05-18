@@ -35,7 +35,7 @@ const educatorPoints: ReactNode[] = [
     <BrandName possessive /> spaced repetition of learning material helps drive retention of
     lessons learnt in class.
   </>,
-  "No IT onboarding required. Teachers upload Question sets with multi-choice answers relating to course material. A reference number is allocated to share with Students and away they go.",
+  "Minimal Onboarding. Teachers upload Question sets with multi-choice answers relating to course material. A reference number is allocated to share with Students and away they go.",
 ];
 
 const parentPoints = [
@@ -138,7 +138,7 @@ export default function ForEducatorsParentsSection() {
             className="order-1 border-b border-[#e5ebf3] lg:order-1 lg:border-r"
           />
           <ImageTile
-            src="/images/new/3rdImage.jpg"
+            src="/images/new/3rdImage.png"
             alt="Student with a thought bubble representing daily wellbeing check-ins"
             fit="contain"
             className="order-2 border-b border-[#e5ebf3] lg:order-2"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { CONTACT_EMAIL } from "@/lib/contact";
 
 export type StudentAuthShellProps = {
   children: ReactNode;
@@ -50,10 +51,10 @@ export function StudentAuthShell({ children }: StudentAuthShellProps) {
         <p className="absolute top-6 right-6 md:top-8 md:right-8 text-muted text-xs">
           Need help?{" "}
           <a
-            href="mailto:hello@andwhat.app"
+            href={`mailto:${CONTACT_EMAIL}`}
             className="text-ink hover:underline"
           >
-            hello@andwhat.app
+            {CONTACT_EMAIL}
           </a>
         </p>
 

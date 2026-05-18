@@ -11,7 +11,7 @@ const actions = [
   },
   {
     label: "Request A School Pilot",
-    href: "/schools",
+    href: "/pilot/signup",
   },
 ];
 

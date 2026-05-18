@@ -20,10 +20,10 @@ export default function PilotExpiredPage() {
             Contact us
           </Link>
           <Link
-            href="/schools"
+            href="/pilot/signup"
             className="inline-flex items-center justify-center rounded-md border border-border px-5 py-2.5 text-sm font-medium text-ink hover:bg-[#faf7f2]"
           >
-            Back to schools page
+            Request a new pilot
           </Link>
         </div>
       </div>
