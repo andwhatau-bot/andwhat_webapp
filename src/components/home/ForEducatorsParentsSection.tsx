@@ -140,7 +140,7 @@ export default function ForEducatorsParentsSection() {
           <ImageTile
             src="/images/new/3rdImage.png"
             alt="Student with a thought bubble representing daily wellbeing check-ins"
-            fit="contain"
+            // fit="contain"
             className="order-2 border-b border-[#e5ebf3] lg:order-2"
             objectPosition="center"
           />
