@@ -32,7 +32,7 @@ function mailFailureHint(smtpMessage: string): string | undefined {
     return (
       "SMTP rejected the login (wrong user/password or .env mangled the password). " +
       "1) In cPanel reset the mailbox password and copy it once into .env. " +
-      "2) Use SMTP_USER=full address (admin@andwhat.au). " +
+      "2) Use SMTP_USER=full address (andwhat.au@gmail.com). " +
       "3) If the password has $ # or backslashes, set SMTP_PASSWORD_B64 instead of SMTP_PASSWORD " +
       "(run: echo -n YOUR_PASSWORD | base64 — paste one line into .env). " +
       "4) If SMTP_HOST is the server hostname, try SMTP_TLS_SERVERNAME=mail.andwhat.au. " +
